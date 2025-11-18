@@ -1,0 +1,4 @@
+__pycache__/
+venv/
+data/alocacao_final.csv
+data/vetor.py
