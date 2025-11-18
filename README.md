@@ -7,10 +7,11 @@ Este projeto realiza a extração de dados de uma planilha Excel (`ESTUDO DE CAS
 - Conversão de cada linha da planilha em um dicionário Python.
 - Salvamento dos dados extraídos em um arquivo `data.txt` (um dicionário por linha).
 - Leitura do arquivo `data.txt` para popular a variável `data` com os dicionários.
+- Manipulação de dados para insights.
+- Criação de dashboard para melhor visualização dos dados.
 
 ## Pré-requisitos
 - Python 3.8 ou superior
-- `openpyxl` instalado
 
 ## Instalação
 1. Clone este repositório:
