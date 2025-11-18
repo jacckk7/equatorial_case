@@ -1,6 +1,6 @@
 # Equatorial Case
 
-Este projeto realiza a extração de dados de uma planilha Excel (`ESTUDO DE CASO_PRODUTIVIDADE CORTE.xlsx`), converte cada linha em um dicionário Python e salva os dados em um arquivo de texto (`data.txt`). Também é possível ler o arquivo `data.txt` e carregar os dados novamente em uma lista de dicionários para análise posterior.
+Este projeto realiza a extração de dados de uma planilha Excel (`ESTUDO DE CASO_PRODUTIVIDADE CORTE.xlsx`), converte cada linha em um dicionário Python e salva os dados em um arquivo de texto (`data.txt`). Após isso é possível fazer a manipulação dos dados para se extrair insights.
 
 ## Funcionalidades
 - Leitura de planilha Excel com o pacote `openpyxl`.
@@ -16,7 +16,7 @@ Este projeto realiza a extração de dados de uma planilha Excel (`ESTUDO DE CAS
 1. Clone este repositório:
    ```bash
    git clone <url-do-repositorio>
-   cd equatorial
+   cd equatorial_case
    ```
 2. (Opcional) Crie e ative um ambiente virtual:
    ```bash
@@ -26,6 +26,9 @@ Este projeto realiza a extração de dados de uma planilha Excel (`ESTUDO DE CAS
 3. Instale as dependências:
    ```bash
    pip install openpyxl
+   pip install pandas
+   pip install dash==2.15.0
+   pip install plotly==5.22.0
    ```
 
 ## Como executar
